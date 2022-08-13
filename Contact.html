@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contacts</title>
+</head>
+
+<body>
+  <p>Email: <em>shaikhabdulquavi@gmail.com</em></p>
+  <p>Mobile: 9594528427</p>
+  <p>Address: Neknoor</p>
+
+
+  <form class="" action="mailto:info@shaikhabdulquavi@gmail.com" method="post">
+
+    <table>
+      <tr>
+        <td><label>Salution:</label></td>
+        <td>
+          <select class="" name="salutation">
+            <option>None</option>
+            <option>Mr.</option>
+            <option>Ms.</option>
+            <option>Mrs.</option>
+            <option>Dr.</option>
+            <option>Prof.</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label>Full Name:</label></td>
+        <td><input type="text" name="fullName" value=""></td>
+      </tr>
+
+      <tr>
+        <td><label>Gender:</label></td>
+        <td>
+          <label>Male<input type="radio" name="gender" value="male"></label>
+          <label>Female<input type="radio" name="gender" value="female"></label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label>Email:</label></td>
+        <td><input type="email" name="email" value=""></td>
+      </tr>
+
+      <tr>
+        <td><label>Date Of Birth:</label></td>
+        <td><input type="Date" name="birthDate" value=""></td>
+      </tr>
+
+      <tr>
+        <td><label>Relationship:</label></td>
+        <td>
+          <label>Married</label>
+          <input type="checkbox" name="married" value="">
+        </td>
+      </tr>
+
+      <tr>
+        <td><label>Language:</label></td>
+        <td>
+          <label><input type="checkbox" name="urdu" value="">Urdu</label><br>
+          <label><input type="checkbox" name="hindi" value="">Hindi</label><br>
+          <label><input type="checkbox" name="english" value="">English</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td><label>Address:</label></td>
+        <td><textarea name="address" rows=5 cols="30"></textarea></td>
+      </tr>
+
+      <tr>
+        <td>File:</td>
+        <td><input type="file" name="fileName" value=""></td>
+      </tr>
+    </table>
+
+    <br>
+    <label><button type="button" name="Submit">Submit</button></label>
+
+  </form>
+
+</body>
+
+</html>
